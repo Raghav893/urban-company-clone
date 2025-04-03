@@ -16,6 +16,11 @@ h1{
     padding: 48px 24px 0px;
 }
 
+h2 {
+    font-weight: 400;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
 .content-wrapper {
     display: flex;
     gap: 24px;
@@ -157,6 +162,8 @@ h1{
 .image-th:hover{
     cursor: pointer;
     transform: scale(1.02);
+    border: solid;
+    border-width: 1px;
 }
 .new_ser {
     margin: 60px;
@@ -179,4 +186,76 @@ h1{
 }
 .new_serv_align img:hover{
     cursor: pointer;
+}
+.most_booked {
+    margin: 60px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main-container {
+    width: 90%;
+    margin: auto;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.services-list-container {
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+
+.service-item-card {
+    flex: 0 0 auto;
+    width: 220px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.service-item-card:hover{
+    cursor: pointer;
+}
+
+.service-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.service-details-container {
+    padding: 10px;
+}
+
+.service-title {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0;
+}
+
+.service-rating {
+    font-size: 14px;
+    margin: 2px 0;
+    color: #666;
+}
+
+.service-price {
+    font-size: 14px;
+    font-weight: bold;
+}
+.big-wall{
+    width: 1232px;
+    height: 410px;
+    margin: 80px;
 }
