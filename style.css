@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}   
 body{
     height: 2000px;
 }
@@ -141,4 +141,42 @@ h1{
     font-size: 14px;
     color: #666;
     line-height: 1.2;
+}
+.thimage{
+    padding-top: 94px;
+    margin: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}  
+.image-th{
+    width: 394px;
+    height: 222px;
+    border-radius: 10px;
+    transition: transform 0.15s;
+}
+.image-th:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.new_ser {
+    margin: 60px;
+       
+}
+.new_ser h2{
+    padding-bottom:50px ;
+}
+
+.new_serv_align {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr  1fr
+}
+
+.new_serv_align img {
+    height: 233px;
+    width: 233px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.new_serv_align img:hover{
+    cursor: pointer;
 }
