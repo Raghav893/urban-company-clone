@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+.container {
+    text-align: center;
+}
+.empty-cart-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.empty-cart-img {
+    width: 128px;
+    height: 96px;
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+p {
+    color: #666;
+    margin: 10px 0;
+}
+.explore-btn {
+    padding: 10px 20px;
+    background-color: #6E42E5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.explore-btn:hover {
+    background-color: #5a36c8;
+}

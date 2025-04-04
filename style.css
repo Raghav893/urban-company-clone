@@ -223,9 +223,11 @@ body {
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    transition: transform 0.20s;
 }
 .service-item-card:hover{
     cursor: pointer;
+    transform: scale(1.02);
 }
 
 .service-image {
@@ -258,4 +260,115 @@ body {
     width: 1232px;
     height: 410px;
     margin: 80px;
+}
+.wall-pannel-big:hover{
+    cursor: pointer;
+    transform: scale(1.005);
+}
+.wall-pannel-big{
+    transition: transform 0.20s;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.urban-company-footer-container-longname {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.urban-company-footer-content-wrapper-longname {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.urban-company-footer-logo-section-longname {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.urban-company-footer-logo-longname {
+    width: 150px;
+    height: 50px;
+}
+
+.urban-company-footer-company-name-longname {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.urban-company-footer-links-container-longname {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.urban-company-footer-section-longname {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.urban-company-footer-heading-longname {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.urban-company-footer-list-longname {
+    list-style: none;
+    padding: 0;
+}
+
+.urban-company-footer-list-longname li {
+    margin-bottom: 8px;
+}
+
+.urban-company-footer-list-longname li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.urban-company-footer-list-longname li a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.urban-company-footer-social-longname {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.urban-company-footer-icons-longname {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.urban-company-footer-icons-longname a img {
+    width: 30px;
+    height: 30px;
+}
+
+.urban-company-footer-apps-longname a img {
+    width: 150px;
+    margin: 5px;
+}
+
+.urban-company-footer-copyright-longname {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
 }
